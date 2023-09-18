@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#inputContainer,
+#outputContainer,
+#translateButton {
+  margin-bottom: 16px;
+}
+
+#inputText,
+#translatedText {
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#inputText[type="text"],
+#translatedText[type="text"] {
+  padding-left: 10px;
+}
+
+#translateButton {
+  background-color: #6f5490;
+  width: 290px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 30px;
+  font-size: 16px;
+  color: white;
+  font-weight: bolder;
+}
